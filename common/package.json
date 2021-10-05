@@ -1,0 +1,20 @@
+{
+  "name": "deps-test-common",
+  "version": "0.0.1",
+  "description": "Some shared code",
+  "scripts": {
+    "clean": "rm -f *.js",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stephenfrancis/deps-test"
+  },
+  "author": "stephen.d.francis@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/node": "^15.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3"
+  }
+}
